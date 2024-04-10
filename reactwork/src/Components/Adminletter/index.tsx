@@ -7,10 +7,12 @@ export default function Adminletter() {
     "&": {
       maxWidth: "800px",
       margin: "20px auto",
-      fontFamily: "",
+      fontFamily: "Satoshi, sans-serif",
       backgroundImage: "url(./images/Icon.png)",
       backgroundRepeat: "no-repeat",
       backgroundPosition: "center center",
+      
+      
     },
     "& .logo": {
       display: "flex",
@@ -31,9 +33,10 @@ export default function Adminletter() {
     },
     "& .profile": {
       display: "flex",
+      flexWrap: "wrap",
       justifyContent: "space-between",
       marginTop: "30px",
-      // gap: "80px"
+      gap: "10px"
     },
     "& .profile-info ": {},
     "& .profile-info .table-head, .profile-contact .table-head": {
@@ -58,6 +61,7 @@ export default function Adminletter() {
     },
     "& .address": {
       display: "flex",
+      flexWrap: "wrap",
       justifyContent: "space-between",
       marginTop: "40px",
     },
@@ -67,7 +71,8 @@ export default function Adminletter() {
       lineHeight: "21.2px",
     },
     "& .address .head2": {
-      right: "0px",
+      // float: "left"
+      marginLeft: "100px"
     },
     "& .address .span1 , .span2 , .span3": {
       display: "block",
@@ -92,7 +97,7 @@ export default function Adminletter() {
       color: "#fff",
     },
     "& .letter": {
-      marginTop: "20px",
+      marginTop: "30px",
     },
     "& .letter .lett": {
       display: "flex",
